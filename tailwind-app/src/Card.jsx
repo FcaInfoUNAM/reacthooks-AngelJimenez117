@@ -9,7 +9,7 @@ return (
         <h5 className="flex-1 1mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title?props.title:'Title'}</h5>
         <p className="flex-1 text-gray-700 dark:text-gray-400 text-sm text-slate-600 mb-8">{props.paragraph?props.paragraph:'Body description'}</p>
         <div className='flex-1  flex content-end space-x-2'>
-        <a href={props.productRef?props.productRef:'#'} className="p-2 place-self-end h-10 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-500 dark:focus:ring-blue-800">
+        <a href="/product" className="p-2 place-self-end h-10 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-500 dark:focus:ring-blue-800">
             View Product
         </a>
         <a href={props.productRef?props.productRef:'#'} className="p-2 place-self-end h-10 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-500 dark:focus:ring-orange-800">
